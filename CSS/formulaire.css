@@ -1,0 +1,97 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.infos{
+   color: black; 
+   font-size: 30px;
+   padding-right: 50px;
+   text-align: center;
+}
+
+.form{
+   width: 96%;
+   margin: 1% auto 0px auto ;
+   /* border:  1px solid #0f6ca7; */
+   box-shadow: 0px 0px 10px white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   flex-direction: row;
+   background-color: rgba(255,255, 255, 0.1);
+}
+
+.inf{
+   margin: auto;
+   text-align: center;
+   font-size: 25px;
+   color: #f7a63e;
+   font-weight: bold;
+}
+
+
+ hr{
+   background-color: #f7a63e;
+   border: 2px solid white;
+   width: 90%;
+   margin: 3%;
+ }
+ .team{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    border:2px solid #0f6ca7;
+ }
+
+ .team div{
+    display: flex;
+    margin: auto auto auto 5%;
+    width: 90%;
+    /* text-align: start; */
+    /* align-items: baseline; */
+    flex-direction: column;
+ }
+
+ label{
+    margin-bottom: 5px;
+    text-align: center;
+    color: #0f6ca7;
+    font-weight: bolder;
+ }
+
+ input{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    outline: 0;
+    width: 90%;
+    border: 1px solid #0f6ca7;
+    box-shadow: 0px 0px 2px white;
+ }
+
+ .sub{
+    box-shadow: 0px 0px 10px #0f6ca7;
+    background-color: #f7a63e;
+    font-family: poppins;
+    width: 30%;
+    border: none;
+    color: black;
+    margin: 0 auto 5% auto;
+    font-size: 35px;
+    font-weight: 300;
+    border-radius: 10px;
+ }
+
+ input:focus{
+    border:  1px solid rgb(52, 52, 121);
+    background-color: #f7a63e;
+    color:  #0f6ca7;
+    font-weight: bolder;
+ }
+
+

@@ -1,0 +1,428 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    /* background-image: url("images/background.jpg"); */
+    /* background-color: #0f6ca7; */
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    text-shadow: -2px 1px 10px #f7a63e;
+}
+
+.h1b{
+    display: none;
+}
+
+
+#end{
+    display: none;
+}
+
+#endb{
+    text-decoration: none;
+    display: block;
+    /* backdrop-filter: blur(15px); */
+    border-radius: 5px;
+    border: 1px solid #f7a63e;
+    width: 30%;
+    /* height: 5%; */
+    color: #f7a63e;
+    box-shadow: 1px 1px 10px white;
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    /* position: static; */
+    margin: 0.5% auto 1% auto;
+}
+
+.boutgame{
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(15px);
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: #f7a63e;
+    border:  1px solid #0f6ca7;
+    box-shadow: 1px 1px 20px #0f6ca7;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 1%;
+    display: block;
+    position: fixed;
+    bottom: 35%;
+}
+
+.boutgame:hover{
+    background-color: #0f6ca7;
+    transition: 1s ease-in-out;
+}
+
+.bouthide{
+    display: none;
+}
+.boutshow{
+    display: none;
+}
+
+.bouthideb{
+    background-color: #f7a63e;
+    border-radius: 5px;
+    border: 1px solid #0f6ca7;
+    width: 30%;
+    height: 5%;
+    color: #0f6ca7;
+    box-shadow: 1px 1px 10px white;
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    position: static;
+    margin: 2% auto 1% auto;
+}
+.boutshowb{
+    background-color: #f7a63e;
+    /* backdrop-filter: blur(15px); */
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid #0f6ca7;
+    height: 5%;
+    color: #0f6ca7;
+    box-shadow: 1px 1px 10px white;
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    position: static;
+    margin: 2% auto 1% auto;
+}
+
+.boutgameb{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+    width: 30%;
+    height: 5%;
+    color: #0f6ca7;
+    box-shadow: 1px 1px 30px white;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    margin: 2% 35% 2% 35%;
+}
+
+.match{
+display: none;
+}
+
+.matchhideb{
+    display: none;
+    }
+.matchb{
+    background-color: white;
+    margin-left:5%;
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.label{
+    color: #0f6ca7;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+}
+
+.team{
+    margin: 0px auto 10px auto;
+    width: 47%;
+    border: 2px solid #0f6ca7;
+    border-radius: 10px;
+}
+
+.teamname{
+    color: #f7a63e;
+    font-weight: bolder;
+    margin: 1%;
+    text-align: center;
+    width: 100%;
+    padding: 2% 0px 2% 0px ;
+}
+.team2{
+    margin-left: 10%;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    float: left;
+}
+
+.team1{
+    margin-right: 10%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.tAn, .tBn{
+    color: #0f6ca7;
+    font-weight: bolder;
+    padding: 2%;
+    font-size: 70px;
+    border: 2px solid #f7a63e;
+    border-radius: 20px;
+}
+
+.tAnb, .tBnb{
+    display: none;
+}
+
+.player{
+    width: 100%;
+}
+.playername{
+    border: 1pt solid black;
+    margin: 1%;
+    width: 98%;
+    align-items: center;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.playername select{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.points{
+    /* border: 1px solid #f7a63e; */
+    width: 14%;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    height: 70px;
+    float: right;
+}
+
+
+.note{
+display: none;
+}
+.notehideb{
+    display: none;
+}
+.noteb{
+    margin-left:5%;
+    margin-top: 1%;;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 2px 0px 5px white;
+}
+
+.teamnote{
+    height: 70px;
+    border: 1px solid #0f6ca7;
+    width: 30%;
+    margin: 1% 3% 1% 3%;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.mark{
+    margin: 0px 2% 0px 2%;
+    width: 20%;
+}
+
+.mark input{
+    margin-left: 3%;
+    width: 98%;
+    font-family: "Poppins", sans-serif;
+    height: 92%;
+    font-size: 100%;
+    color: #0f6ca7;
+    margin: 1%;
+    background-color: #0f6ca7;
+    color: #f7a63e;
+    border: none;
+    border-radius: 7px;
+}
+
+
+/*----------------------------------------------------------------------*/
+.teamnotem{
+    align-content: center;
+    width: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pl{
+    align-content: center;
+    width: 79%;
+    font-size: 15px;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 1%;
+}
+
+.markm{
+    display: flex;
+    top: 0px;
+    height: 25px;
+    width: 25%;
+}
+
+.markm input{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 98%;
+    font-weight: bolder;
+    color: black;
+    background-color: #0f6ca7;
+    border: none;
+    margin: 0.5px;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width: 985px) {
+    h1{
+        font-size: 45px;
+    }
+    .matchb{
+        background-color: rgb(255, 240, 230);
+        margin-left:5%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        box-shadow: 2px 0px 7px white;
+    }
+        
+    .team{
+        margin: 0px 0.5% 10px 0.5%;
+        width: 85%;
+        border: 3px solid rgb(120, 15, 15);
+        border-radius: 1.5%;
+    }
+    .markm{
+        display: flex;
+        flex-direction: row;
+        top: 0px;
+        height: 20px;
+        margin: 1px 2% 1px 2%;
+        width: 20%;
+    }
+    
+    .markm input{
+        display: flex;
+        text-align: left;
+        font-size: 13px;
+        font-weight: bolder;
+        width: 100%;
+        font-weight: bolder;
+    }
+    .points{
+        border: 1px solid black;
+        width: 14%;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 1%;
+        margin-right: 1.2%;
+        padding: 2.5% 0px 2.5%;
+        font-size: 15px;
+        float: right;
+    }
+
+
+    
+.teamname{
+    color: rgb(120, 15, 15);
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 1%;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+.team2{
+    margin-left: 10%;
+    display: flex;
+    float: left;
+}
+.tBn{
+    color: #f7a63e;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 1%;
+    border: 2px solid rgb(120, 15, 15);
+    border-radius: 50%;
+}
+.team1{
+    margin-left: 10%;
+    display: flex;
+    float: left;
+}
+
+.tAn{
+    color: #f7a63e;
+    font-weight: bolder;
+    padding: 1%;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+
+.note{
+    height: auto;
+    width: 90%;
+    box-shadow: 2px 0px 5px white;
+}
+.teamnote{
+    width: 43%;
+
+    background-color: rgb(255, 240, 230);
+}
+.mark{
+    width: 10%;
+}
+
+.mark input{
+    margin-left: 3%;
+    width: 98%;
+    font-size: 100%;
+    color: white;
+    background-color: rgb(120, 15, 15);
+
+}
+
+}

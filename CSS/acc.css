@@ -1,0 +1,416 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgba(20, 20, 80, 0.757); */
+    font-family: "Poppins", sans-serif;
+    /* background-image: url("images/background.jpg"); */
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header{
+    width: 94%;
+    margin: 1% auto 0 auto;
+    background-color: #f7a63e;
+    font-size: 25px;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    top: 3%;
+    left: 3%;
+    /* padding-bottom: 1%; */
+}
+hr{
+    height: 2px;
+}
+.link{
+    /* align-items: center; */
+    /* align-content: space-around; */
+
+    /* position: fixed; */
+    /* border: 1px solid red; */
+    grid-area: 1/2/2/3;
+}
+
+
+
+.link a{
+    float: right;
+    margin-right: 10%;
+    color: #0f6ca7;
+    text-decoration: none;
+}
+.link .gamematch{
+    color: #0f6ca7;
+    font-weight: bolder;
+}
+
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width: 96%;
+    /* position: relative;s */
+}
+
+
+
+.logo{
+
+    font-weight: bolder;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.logo a{
+    color:  black;
+    text-decoration: none;
+}
+
+
+.logo svg{
+    width: 130px;
+    margin: auto auto auto 100%;
+    align-items: center;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+
+}
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    padding: 0px 0px 2% 0px;
+    border: 1px solid #0f6ca7;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5% auto 3% auto;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 2px 2px #0f6ca7;
+}
+
+.game{
+    display: flex;
+    text-decoration: underline #0f6ca7;
+    text-underline-offset: 30px;
+    width: 90%;
+    margin: 5% auto 3% auto;
+    text-align: center;
+    justify-content: center;
+    margin: 5% auto 1% auto;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5% auto 10% auto;
+    text-align: center;
+    justify-content: center;
+    /* opacity: 0.8; */
+}
+
+.contain h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.carr{
+    width: 100%;
+    border-radius: 10px;
+    animation: slide 2s;
+    border: 1px solid #f7a63e;
+    box-shadow: 0 0 10px #0f6ca7;
+}
+
+@keyframes slide {
+    100%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+    }
+}
+
+.h11{
+    font-size: 100px;
+    padding: 0;
+}
+
+h1{
+    grid-area: 1/1/2/3;
+    text-align: justify;
+    font-weight: 300;
+    padding: 1%;
+    font-size: 30px;
+    color: #0f6ca7;
+}
+h3{
+    grid-area: 2/1/2/3;
+    color: #f7a63e;
+    font-weight: 300;
+}
+
+.menu{
+    display: none;
+}
+
+
+button{
+    font-family: poppins;
+}
+
+.bout{
+    width: 90%;
+    grid-area: 3/1/4/2;
+    font-weight: 200;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0f6ca7;
+    box-shadow: 0px 3px 10px white;
+    transition: scale 0.2s;
+    border-radius: 10px;
+    border: 1px solid #0f6ca7;
+}
+
+
+.boutonCompetition{
+    width: 90%;
+    grid-area: 3/2/4/2;
+    font-weight: 100;
+    padding: 2%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0px 3px 10px white;
+    transition: scale 0.2s;
+    border-radius: 10px;
+    border: 1px solid #0f6ca7;
+    box-shadow: 0 2px 3px #0f6ca7;
+}
+
+.boutonCompetition a{
+    text-decoration: none;
+    color: #0f6ca7;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.bout a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px;
+} 
+
+/* --------------------------------------------------------PAGE DE CONNECTION -------------------------------------------------------------------------- */
+
+
+.pag{
+    background-color: #0f6ca7;
+    border-radius: 10px;
+    border: 1px solid #0f6ca7;
+    width: 60%;
+    margin:  10% auto 0% auto;
+
+}
+
+form{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    /* border: 1px solid green; */
+}
+
+.conn{
+    text-decoration: underline #f7a63e;
+}
+
+.email{
+    text-align: center;
+    margin: 1% auto 1% auto;
+    width: 80%;
+    grid-area: 1/1/2/3;
+}
+
+.pwd{
+    text-align: center;
+    margin: 1% auto 1% auto;
+    width: 80%;
+    grid-area: 2/1/3/3;
+}
+
+.subm{
+    color: #0f6ca7;
+    font-weight: bolder;
+    border: 1px solid #0f6ca7;
+    border-radius: 5px;
+    margin: auto 0px auto auto;
+    width: 77%;
+    position: relative;
+    grid-area: 3/1/4/2;
+    background-color: white;
+}
+
+.ins{
+    margin-left: 10%;
+    grid-area: 3/2/4/3;
+}
+
+.ins a{
+    color: #0f6ca7;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------- COMPETITIONS -------------------------------------------------------------------------- */
+
+
+#comp{
+    width: 90%;
+    margin: 5% 0px 0px 4.9%;
+    border: 1px solid #f7a63e;
+}
+
+.doss{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0px 0px 2% 0px;
+    border: 1px solid #f7a63e;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90%;
+    margin: 0.1% auto 1% auto;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.doss section{
+    border-radius: 3px;
+    border: 1px solid #0f6ca7;
+    margin: 5%;
+    background-color: rgba(156, 156, 237, 0.1);
+}
+
+.doss a{
+    color: #0f6ca7;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.doss img{
+    width: 90%;
+    /* border: 1px solid #0f6ca7; */
+    border-radius: 5px;
+    margin: 3% 3% 0 3%;
+}
+
+
+
+
+/* ----------------------------------------------------------Apropos ------------------------------------------------- */
+
+
+.cont{
+    padding: 1% 0% 1% 10%;
+    border: 1px solid #f7a63e;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 60%;
+    margin: 0.1% auto 0 auto;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+.cont u{
+    color: #0f6ca7;
+    font-weight: bolder;
+}
+
+#compCont{
+    width: 30%;
+    margin: 5% 0px 0px 14.9%;
+    border: 1px solid #f7a63e;
+}
+
+.ap{
+    padding: 1%;
+    border: 1px solid #f7a63e;
+    border-radius: 10px;
+    width: 90%;
+    margin: 5% auto 0 auto;
+    justify-content: center;
+    text-align: unset;
+}
+
+
+
+/* --------------------------------------------------------- Resultats -------------------------------- */
+
+.res{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #f7a63e    ;
+    border: 1px solid #f7a63e;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90%;
+    margin: 0.1% auto 1% auto;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* text-transform: uppercase; */
+}
+
+.equipe{
+    border: 1px solid #0f6ca7;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.not{
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 50px;
+    margin: 1% auto 1% auto;
+}
+
+.nam{
+    /* border: 1px solid green; */
+    height: 100%;
+    padding-left: 20px;
+    font-weight: bolder;
+    /* width: 70%; */
+}
+
+.not span{
+    /* width: 20%; */
+    height: 100%;
+    font-weight: bolder;
+    color: #0f6ca7;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
